@@ -7,22 +7,22 @@ export interface GalleryItem {
 export const galleryData: GalleryItem[] = [
   {
     id: 1,
-    imageUrl: 'https://github.com/mitwenx/Freelancing-/blob/c8d140c39d6563bc14a49fb87b10d22bbfa89a9c/images/gallery/one.png',
+    imageUrl: 'https://ibb.co/1fPdKSzX',
     alt: 'Tech Thumbnail'
   },
   {
     id: 2,
-    imageUrl: 'images/gallery/two.png',
+    imageUrl: 'https://ibb.co/8L9Hxm1V',
     alt: 'Tutorial Thumbnail'
   },
   {
     id: 3,
-    imageUrl: 'images/gallery/three.png',
+    imageUrl: 'https://ibb.co/XrcVFTdJ',
     alt: 'Bot Thumbnail'
   },
   {
     id: 4,
-    imageUrl: 'images/gallery/four.png',
+    imageUrl: 'https://ibb.co/20TDqj38',
     alt: 'Tutorial Thumbnail'
   }
 ];
