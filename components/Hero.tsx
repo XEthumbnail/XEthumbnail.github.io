@@ -13,7 +13,7 @@ export default function Hero() {
           Thumbnails That <span className="gradient-text">Get Clicked</span>
         </h1>
         <p className={styles.subtitle}>
-          I design scroll-stopping thumbnails that boost CTR. Clean, bold, and designed to convert viewers into subscribers.
+          I design good minimalist thumbnails that boost CTR. Clean, bold, and designed to convert viewers into subscribers.
         </p>
         <div className={styles.buttons}>
           <Link href="/pricing" className="btn btn-primary">Get First Free</Link>
