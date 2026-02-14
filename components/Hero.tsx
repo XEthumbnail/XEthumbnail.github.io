@@ -1,17 +1,8 @@
-'use client';
-
 import Link from 'next/link';
-import CircularGallery from './CircularGallery';
-import { galleryData } from '../data/galleryData';
+import Gallery from './Gallery';
 import styles from './Hero.module.css';
 
 export default function Hero() {
-  // Map your existing gallery data to the format CircularGallery expects
-  const galleryItems = galleryData.map(item => ({
-    image: item.imageUrl,
-    text: item.alt
-  }));
-
   return (
     <section id="home" className={`section ${styles.hero}`}>
       <div className="container">
@@ -29,16 +20,8 @@ export default function Hero() {
           <Link href="/works" className="btn btn-outline">View Portfolio</Link>
         </div>
         
-        {/* New 3D Circular Gallery */}
-        <div style={{ height: '600px', width: '100%', marginTop: '40px' }}>
-          <CircularGallery 
-            items={galleryItems} 
-            bend={2} 
-            textColor="#ffffff" 
-            borderRadius={0.05}
-          />
-        </div>
+        <Gallery />
       </div>
     </section>
   );
-                     }
+}
