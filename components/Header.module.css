@@ -31,6 +31,12 @@
 .mobileNav a { padding: 12px; font-weight: 600; border-radius: 8px; }
 .mobileNav a:hover { background: var(--md-surface-container); }
 
+/* NEW: Active state for mobile nav */
+.mobileNav a.active {
+  background: var(--md-primary-container);
+  color: var(--md-on-primary-container);
+}
+
 @media (max-width: 768px) {
   .navLinks { display: none; }
   .hamburger { display: flex; }
