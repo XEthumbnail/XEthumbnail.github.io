@@ -1,6 +1,6 @@
 export interface GalleryItem {
   id: number;
-  imageUrl: string; // Use URL or path to public folder
+  imageUrl: string;
   alt: string;
 }
 
@@ -19,5 +19,10 @@ export const galleryData: GalleryItem[] = [
     id: 3,
     imageUrl: 'https://placehold.co/1280x720/2D0F7E/FFFFFF?text=Finance+Tips+Guide',
     alt: 'Finance Thumbnail'
+  },
+  {
+    id: 4,
+    imageUrl: 'https://placehold.co/1280x720/17005E/FFFFFF?text=Vlog+Adventure',
+    alt: 'Vlog Thumbnail'
   }
 ];
