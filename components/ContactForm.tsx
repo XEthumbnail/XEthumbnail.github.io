@@ -16,8 +16,8 @@ export default function ContactForm() {
     const subject = `New Inquiry from ${formData.name}`;
     const body = `Name: ${formData.name}%0D%0AEmail: ${formData.email}%0D%0A%0D%0AMessage:%0D%0A${formData.message}`;
     
-    // Trigger mailto
-    window.location.href = `mailto:your@email.com?subject=${subject}&body=${body}`;
+    // Trigger mailto with new email
+    window.location.href = `mailto:contact@mitwen.com?subject=${subject}&body=${body}`;
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -40,7 +40,7 @@ export default function ContactForm() {
                 type="text" 
                 id="name"
                 name="name"
-                placeholder="John Doe" 
+                placeholder="Your name" 
                 required 
                 className={styles.input}
                 value={formData.name}
@@ -53,7 +53,7 @@ export default function ContactForm() {
                 type="email" 
                 id="email"
                 name="email"
-                placeholder="john@example.com" 
+                placeholder="name@example.com" 
                 required 
                 className={styles.input}
                 value={formData.email}
@@ -66,14 +66,14 @@ export default function ContactForm() {
                 rows={4} 
                 id="message"
                 name="message"
-                placeholder="Tell me about your video..." 
+                placeholder="I’m looking for a YouTube thumbnail for a video about [topic]. Channel niche: [niche]. Preferred style: [describe]."
                 required 
                 className={styles.input}
                 value={formData.message}
                 onChange={handleChange}
               ></textarea>
             </div>
-            <button type="submit" className="btn btn-primary" style={{ width: '100%' }}>Send Message ✉️</button>
+            <button type="submit" className="btn btn-primary" style={{ width: '100%' }}>Send Message </button>
           </form>
         </div>
       </div>
