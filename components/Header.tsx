@@ -15,15 +15,13 @@ export default function Header() {
 
   // Helper to determine active class
   const isActive = (path: string) => pathname === path ? styles.active : '';
-
-  // For mobile, we return the class name string for CSS Modules
   const getMobileClass = (path: string) => pathname === path ? styles.active : '';
 
   return (
     <header className={styles.header}>
       <div className={`container ${styles.headerInner}`}>
         <Link href="/" className={styles.logo}>
-          <span className={styles.logoIcon}>X</span> Xthumbnail
+          <span className={styles.logoIcon}>M</span> Mitwen
         </Link>
 
         <nav>
