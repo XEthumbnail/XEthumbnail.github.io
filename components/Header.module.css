@@ -8,7 +8,6 @@
 .headerInner { display: flex; align-items: center; justify-content: space-between; height: 70px; }
 .logo { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 1.2rem; }
 
-
 .logoIcon { 
   width: 32px; 
   height: 32px; 
@@ -23,8 +22,29 @@
 .navLinks a { padding: 8px 16px; border-radius: var(--radius-full); font-weight: 500; font-size: 0.9rem; color: var(--md-on-surface-variant); transition: 0.2s; }
 .navLinks a:hover { background: var(--md-primary-container); color: var(--md-on-primary-container); }
 
-.headerControls { display: flex; align-items: center; gap: 8px; }
-.hamburger { display: none; background: transparent; border: none; cursor: pointer; flex-direction: column; gap: 5px; }
+/* UPDATED: Ensures icons align perfectly */
+.headerControls { 
+  display: flex; 
+  align-items: center; 
+  gap: 8px; 
+  height: 100%; /* Ensures full height context */
+}
+
+.hamburger { 
+  display: none; 
+  background: transparent; 
+  border: none; 
+  cursor: pointer; 
+  flex-direction: column; 
+  gap: 5px; 
+  /* Added specific dimensions to match theme toggle */
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
 .hamburger span { width: 24px; height: 2px; background: var(--md-on-surface); transition: 0.3s; }
 
 /* Hamburger Animation */
@@ -45,4 +65,4 @@
 @media (max-width: 768px) {
   .navLinks { display: none; }
   .hamburger { display: flex; }
-}
+                    }
