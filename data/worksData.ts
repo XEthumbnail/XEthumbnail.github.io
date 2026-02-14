@@ -3,15 +3,50 @@ export interface WorkItem {
   title: string;
   category: string;
   views: string;
-  icon: string;
-  gradientClass: string; // Corresponds to CSS classes
+  imageUrl: string; 
 }
 
 export const worksData: WorkItem[] = [
-  { id: 1, title: 'SpaceX Launch', category: 'Science', views: '2.5M Views', icon: '⚡', gradientClass: 'grad-1' },
-  { id: 2, title: 'Passive Income 2024', category: 'Finance', views: '500K Views', icon: '💸', gradientClass: 'grad-2' },
-  { id: 3, title: 'Street Food Japan', category: 'Vlog', views: '1.2M Views', icon: '🍜', gradientClass: 'grad-3' },
-  { id: 4, title: 'MacBook Review', category: 'Tech', views: '800K Views', icon: '💻', gradientClass: 'grad-4' },
-  { id: 5, title: 'Top 10 Goals', category: 'Sports', views: '3M Views', icon: '⚽', gradientClass: 'grad-5' },
-  { id: 6, title: 'Digital Art Tutorial', category: 'Education', views: '150K Views', icon: '🎨', gradientClass: 'grad-6' },
+  { 
+    id: 1, 
+    title: 'How to Check if a MOD APK is Safe or Not', 
+    category: 'Tutorial', 
+    views: 'Client Project', 
+    imageUrl: 'images/gallery/one.png' 
+  },
+  { 
+    id: 2, 
+    title: 'Create Telegram Bot on Android', 
+    category: 'Tech Tutorial', 
+    views: 'Client Project', 
+    imageUrl: 'images/gallery/two.png' 
+  },
+  { 
+    id: 3, 
+    title: 'Top 5 Telegram Bots', 
+    category: 'Tech / Apps', 
+    views: 'Client Project', 
+    imageUrl: 'images/gallery/three.png' 
+  },
+  { 
+    id: 4, 
+    title: 'Block YouTube Shorts Permanently', 
+    category: 'Tech / YouTube Tips', 
+    views: 'Client Project', 
+    imageUrl: 'images/gallery/four.png' 
+  },
+  { 
+    id: 5, 
+    title: 'placeholder', 
+    category: 'placeholder', 
+    views: 'xyz', 
+    imageUrl: 'https://placehold.co/1280x720/0277BD/FFFFFF?text=soon' 
+  },
+  { 
+    id: 6, 
+    title: 'placeholder', 
+    category: 'placeholder', 
+    views: 'xyz', 
+    imageUrl: 'https://placehold.co/1280x720/9C27B0/FFFFFF?text=soon' 
+  },
 ];
