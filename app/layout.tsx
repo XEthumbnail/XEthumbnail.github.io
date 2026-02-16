@@ -7,8 +7,8 @@ import Footer from '../components/Footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Mitwen — YouTube Thumbnail Designer',
-  description: 'Mitwen YouTube Thumbnail Designer — Eye-catching thumbnails that boost your clicks and views.',
+  title: 'XEthumbnail — YouTube Thumbnail Designer',
+  description: 'XEthumbnail YouTube Thumbnail Designer — Eye-catching thumbnails that boost your clicks and views.',
 };
 
 export default function RootLayout({
