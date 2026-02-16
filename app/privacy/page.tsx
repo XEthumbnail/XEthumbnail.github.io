@@ -13,7 +13,7 @@ export default function PrivacyPage() {
         
         <div style={{ lineHeight: '1.8', color: 'var(--md-on-surface-variant)' }}>
           <p style={{ marginBottom: '24px' }}>
-            At Mitwen ("we", "our", or "us"), we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website (mitwen.com) or use our design services.
+            At XEthumbnail ("we", "our", or "us"), we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website or use our design services.
           </p>
 
           <h3 style={{ color: 'var(--md-on-surface)', marginTop: '30px', marginBottom: '12px' }}>1. Information We Collect</h3>
@@ -49,7 +49,7 @@ export default function PrivacyPage() {
           <h3 style={{ color: 'var(--md-on-surface)', marginTop: '30px', marginBottom: '12px' }}>5. Contact Us</h3>
           <p>
             If you have any questions about this Privacy Policy, please contact us at:<br/>
-            <strong>Email:</strong> contact@mitwen.com
+            <strong>Email:</strong> XEthumbnail@gmail.com
           </p>
         </div>
       </div>
