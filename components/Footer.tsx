@@ -9,14 +9,14 @@ export default function Footer() {
         {/* Brand Section */}
         <div className={styles.brandSection}>
           <Link href="/" className={styles.logo}>
-            <span className={styles.logoIcon}>M</span> Mitwen
+            <span className={styles.logoIcon}>XE</span> XEthumbnail
           </Link>
         </div>
 
         {/* Social / Contact Icons */}
         <div className={styles.socialLinks}>
           <a 
-            href="mailto:contact@mitwen.com" 
+            href="mailto:XEthumbnail@gmail.com" 
             className={styles.socialBtn} 
             aria-label="Email Me"
             title="Email Me"
@@ -26,7 +26,7 @@ export default function Footer() {
           </a>
           
           <a 
-            href="https://www.upwork.com/freelancers/~yourprofile" 
+            href="XEthumbnail.github.io" 
             target="_blank" 
             rel="noopener noreferrer" 
             className={styles.socialBtn}
@@ -49,8 +49,8 @@ export default function Footer() {
         </div>
 
         {/* Copyright */}
-        <p className={styles.copy}>&copy; 2026 mitwen.com All rights reserved.</p>
+        <p className={styles.copy}>&copy; 2026 XEthumbnail All rights reserved.</p>
       </div>
     </footer>
   );
-}
+            }
