@@ -13,7 +13,7 @@ export default function TermsPage() {
         
         <div style={{ lineHeight: '1.8', color: 'var(--md-on-surface-variant)' }}>
           <p style={{ marginBottom: '24px' }}>
-            Welcome to mitwen.com By accessing our website and purchasing our services, you agree to be bound by the following Terms and Conditions.
+            Welcome to xethumbnail By accessing our website and purchasing our services, you agree to be bound by the following Terms and Conditions.
           </p>
 
           <h3 style={{ color: 'var(--md-on-surface)', marginTop: '30px', marginBottom: '12px' }}>1. Services</h3>
@@ -36,7 +36,7 @@ export default function TermsPage() {
 
           <h3 style={{ color: 'var(--md-on-surface)', marginTop: '30px', marginBottom: '12px' }}>4. Intellectual Property</h3>
           <p style={{ marginBottom: '24px' }}>
-            Upon full payment, the client is granted exclusive rights to use the final design for their content. mitwen.com retains the right to display the work in portfolios for promotional purposes unless otherwise agreed in writing.
+            Upon full payment, the client is granted exclusive rights to use the final design for their content. xethumbnail.com retains the right to display the work in portfolios for promotional purposes unless otherwise agreed in writing.
           </p>
 
           <h3 style={{ color: 'var(--md-on-surface)', marginTop: '30px', marginBottom: '12px' }}>5. Source Files</h3>
@@ -47,7 +47,7 @@ export default function TermsPage() {
           <h3 style={{ color: 'var(--md-on-surface)', marginTop: '30px', marginBottom: '12px' }}>6. Contact</h3>
           <p>
             For any inquiries regarding these terms, please contact us at:<br/>
-            <strong>Email:</strong> contact@mitwen.com
+            <strong>Email:</strong> XEthumbnail@gmail.com
           </p>
         </div>
       </div>
