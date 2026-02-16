@@ -17,7 +17,7 @@ export default function ContactForm() {
     const body = `Name: ${formData.name}%0D%0AEmail: ${formData.email}%0D%0A%0D%0AMessage:%0D%0A${formData.message}`;
     
     // Trigger mailto with new email
-    window.location.href = `mailto:contact@mitwen.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:XEthumbnail@gmail.com?subject=${subject}&body=${body}`;
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
