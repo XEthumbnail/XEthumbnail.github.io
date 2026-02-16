@@ -21,7 +21,7 @@ export default function Header() {
     <header className={styles.header}>
       <div className={`container ${styles.headerInner}`}>
         <Link href="/" className={styles.logo}>
-          <span className={styles.logoIcon}>M</span> Mitwen
+          <span className={styles.logoIcon}>XE</span> XEthumbnail
         </Link>
 
         <nav>
